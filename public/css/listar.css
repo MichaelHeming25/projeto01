@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "univia pro";
+    src: url(../../fonts/UniviaPro-Black.otf);
+}
+
+.ul-listas {
+    width: 95%;
+    border-radius: 3px;
+    padding: 0;
+    border: 1px solid #ccc;
+    display: flex;
+    color: rgba(0, 0, 0, 0.692);
+    padding-bottom: 30px;
+    align-items: center;
+    background: white;
+    margin-left: 10px;
+    flex-direction: column;
+}
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+    background-color: #ffffff;
+}
+.titulo {
+    font-family: "montserrat";
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background: white;
+    font-size: 3.5rem;
+    padding-left: 20px;
+    display: flex;
+}
+.lista2 {
+    width: 41%;
+}
+.lista3 {
+    width: 90%;
+    height: 53rem;
+    background: white;
+}
+.li-item {
+    color: rgba(0, 0, 0, 0.904);
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: "montserrat";
+    font-size: 16px;
+    list-style-type: none;
+    width: 100%;
+}
+.li-item-valores {
+    color: rgba(0, 0, 0, 0.5);
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0em;
+}
+.box {
+    flex-direction: column;
+    display: flex;
+}
+.botoes {
+    display: flex;
+    /* padding-left: 21px; */
+    justify-content: center;
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    /* padding-bottom: 10px; */
+}
+td {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-left: 20px;
+}
+[class*="entypo-"]:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: "entypo", sans-serif;
+}
+.li-item:hover {
+    background: rgb(225, 225, 225);
+}
+.botao-editar {
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(30, 159, 218);
+    font-size: 1.7rem;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    background: transparent;
+}
+.botao-editar:hover {
+    border: 1px dashed rgb(26, 136, 187);
+    transition: 0.3s;
+}
+.botao-editar:focus,
+.botao-remover:focus {
+    outline: 0;
+}
+.botao-remover {
+    width: 40px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-size: 1.7rem;
+    border-radius: 3px;
+    height: 35px;
+    background: transparent;
+}
+.botao-remover:hover {
+    transition: 0.3s;
+    border: 1px dashed rgb(211, 13, 13);
+}
+
+.listas-all {
+    display: flex;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.fundo-botao {
+    margin-left: 9px;
+    position: fixed;
+    height: 8rem;
+    width: 19%;
+    background: white;
+}
+.wrapper {
+    display: flex;
+}
+.li-item-name {
+    background: rgb(189, 227, 249);
+    color: rgba(0, 0, 0, 0.904);
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: "montserrat";
+    font-size: 16px;
+    list-style-type: none;
+    width: 100%;
+}
+.alinhamento-lista {
+    display: flex;
+    width: 100%;
+}
+.busca {
+    font-size: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    color: black;
+    padding: 4px 8px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+}
+tr {
+    background: white;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-right: 0.3em;
+    padding-top: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 3px;
+    font-family: "montserrat";
+    font-weight: 500;
+    color: #2b333e;
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+.dataTables_wrapper .dataTables_filter input:focus {
+    outline: 0;
+}
+.dataTables_wrapper .dataTables_filter input:hover {
+    background: rgb(244, 244, 244);
+}
+.sorting {
+    background: rgb(222, 244, 255);
+}
+.sorting_asc {
+    background: rgb(222, 244, 255);
+}
+label {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 5px;
+    color: red;
+    padding: 0 0.5rem;
+    font-weight: 500;
+}
+.dataTables_wrapper {
+    position: relative;
+    background: white;
+    clear: both;
+    *zoom: 1;
+    width: 100%;
+    zoom: 1;
+}
+.topo {
+    height: 9rem;
+    background: rgb(242, 242, 242);
+    border-bottom: 1px solid black;
+}
+.lista-usuarios {
+    width: 100%;
+    height: 61rem;
+    padding: 1rem 2rem;
+    overflow-y: auto;
+}
+.notificacoes {
+    background: white;
+    height: 77.1rem;
+    overflow-y: auto;
+}
+.linha {
+    background: rgba(0, 0, 0, 0.363);
+    height: 1px;
+    width: 97%;
+}
+.linha-name {
+    background: rgba(0, 0, 0, 0.363);
+    height: 1px;
+    width: 100%;
+}
+.linha-botao {
+    background: rgba(0, 0, 0, 0.363);
+    height: 1px;
+    width: 100%;
+}
+.logo-numero {
+    font-size: 30px;
+    font-family: "univia pro";
+    color: white;
+    margin-top: 5px;
+    padding: 0 5px;
+    height: 38px;
+    margin-left: 5px;
+    background-color: rgb(0, 119, 255);
+}
+.conteudo {
+    background: rgb(237, 237, 237);
+}
+body {
+    background-image: url(../../imgs/layout_03.png);
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+.logo {
+    margin-top: 105px;
+    font-size: 36px;
+    margin: 0 auto;
+    display: flex;
+    font-family: "univia pro";
+    color: black;
+}
+.logo-principal {
+    display: flex;
+    padding-top: 20px;
+}
+@media (min-width: 1600px) {
+    .lista-usuarios {
+        height: 550px;
+    }
+    .dataTables_wrapper .dataTables_filter input {
+        margin-right: 0em;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+@media (min-width: 1440px) {
+    .lista-usuarios {
+        height: 550px;
+    }
+    .dataTables_wrapper .dataTables_filter input {
+        margin-right: 0em;
+    }
+}
+@media (min-width: 1366px) {
+    .lista-usuarios {
+        height: 550px;
+    }
+    .dataTables_wrapper .dataTables_filter input {
+        margin-right: 0em;
+    }
+    .logo-numero {
+        font-size: 28px;
+        font-family: "univia pro";
+        color: white;
+        margin-top: 3px;
+        padding: 0 5px;
+        height: 34px;
+        margin-left: 5px;
+        background-color: rgb(0, 119, 255);
+    }
+    .logo {
+        font-size: 33px;
+    }
+    body {
+        background-size: 135%;
+    }
+}
+@media (min-width: 1280px) {
+    .logo-numero {
+        font-size: 24px;
+        font-family: "univia pro";
+        color: white;
+        margin-top: 4px;
+        padding: 0 5px;
+        height: 30px;
+        margin-left: 5px;
+        background-color: rgb(0, 119, 255);
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .lista-usuarios {
+        height: 61rem;
+    }
+    .dataTables_wrapper .dataTables_filter input {
+        margin-right: 0em;
+    }
+    .a > ul {
+        width: 190px;
+        transform: translateX(-110px);
+    }
+    body {
+        background-size: 145%;
+    }
+}
+@media (min-width: 1024px) {
+    .logo-numero {
+        font-size: 19px;
+        font-family: "univia pro";
+        color: white;
+        margin-top: 2px;
+        padding: 0 5px;
+        height: 24px;
+        margin-left: 5px;
+        background-color: rgb(0, 119, 255);
+    }
+    .logo {
+        font-size: 20px;
+    }
+}
+@media (max-width: 550px) {
+    .lista-usuarios {
+        padding: 1rem;
+    }
+    tr {
+        display: flex;
+        justify-content: space-between;
+        background: white;
+    }
+}
