@@ -129,7 +129,7 @@
 
                                     <td>
                                       <div class="botoes">
-                                        <button type="button" class="botao-remover" style="margin-right: 10px;" onclick="javascript:location.href='clientes/remover/{{ $clientes[$i]['id'] }}'"><i class="far fa-trash-alt"></i></button>  
+										<button type="button" class="botao-remover" style="margin-right: 10px;" onclick="javascript:location.href='clientes/remover/{{ $clientes[$i]['id'] }}'"><i class="far fa-trash-alt"></i></button>  
                                         <button type="button" class="botao-editar" onclick="javascript:location.href='clientes/editar/{{ $clientes[$i]['id'] }}'"><span class="entypo-tools"><i class="fas fa-edit"></i></span></button>
                                         <button type="button" class="botao-editar" onclick="javascript:location.href='clientes/vermais/{{ $clientes[$i]['id'] }}'"><span class="entypo-tools"><i class="fas fa-ellipsis-h"></i></span></button>
                                       </div>
