@@ -59,9 +59,40 @@
 							</div>
 						</div>
 
+						{{-- MODAL EDITAR --}}
+						<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel">Editar Usuario</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+									</div>
+								</div>
+							</div>
+						</div>
+						{{-- MODAL CADASTRAR --}}
+						<div class="modal-cadastrar fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel">Cadastrar Usuario</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body-cadastrar">
+									</div>
+								</div>
+							</div>
+						</div>
+
 						@if (session('mensagem'))
 							<div class="alert alert-success fade  mb-0 pl-3 pr-3 pt-1 pb-1 col-12" role="alert">
-							<div class="alert-icon"><i class="far fa-check-circle"></i></div>
+								<div class="alert-icon"><i class="far fa-check-circle"></i></div>
 								<div class="alert alert-success">
 									{{ session('mensagem') }}
 								</div>
@@ -71,7 +102,6 @@
 									</button>
 								</div>
 							</div>
-							
 						@elseif(session('invalido'))
 							<div class="alert alert-danger fade show mb-0 pl-3 pr-3 pt-1 pb-1 col-12" role="alert">
 							<div class="alert-icon"><i class="far fa-check-circle"></i></div>

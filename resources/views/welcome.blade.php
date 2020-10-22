@@ -42,7 +42,7 @@
 			<div class="main-content">
 				<div class="conteudo">
                     <div class="conteudo-layout">
-						<div class="redes-sociais">
+						{{-- <div class="redes-sociais">
 							<a href="#">
 								<div class="card facebook">
 									<i class="fab fa-facebook-f"></i>
@@ -67,7 +67,7 @@
 									<span>Whatsapp</span>
 								</div>
 							</a>
-						</div>
+						</div> --}}
 					</div>
                 </div>
 			</div>
